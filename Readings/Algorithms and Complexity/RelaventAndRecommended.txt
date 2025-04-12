@@ -1,0 +1,34 @@
+Introduction to Algorithms (CLRS)
+
+BLOCK 1 (Chapters 1-3) WEEK 1-2
+
+Corresponding material in [CLRS]: Chapters 1-3 (excluding material about little-oh and little-omega), 7 (excluding 7.4). For review material, you may also wish to look at 10.1-10.2.
+
+Again, I strongly recommend that you go through exercises throughout the course, on your own time! The following are some pointers for suitable exercises in [CLRS]. for the first few lectures. 
+
+From Chapter 2, the exercises are generally good (except that some of them were already solved during lectures). Problem 2-1 is a very useful question to solve (though some may find it challenging). 
+
+From Chapter 3, a lot of the book goes into mathematical detail we do not need. But you should still be able to solve exercises 3.1-1 to 3.1-4, problem 3-1(a,b,c), and parts of problems 3-2 and 3-3 (with a smaller selection of functions). 
+
+BLOCK 2 Trees and Advanced Data Structures 
+
+Trees in general: Chapters 10.4 and B.5 of [CLRS].
+Binary search trees (BSTs): Chapter 12 of [CLRS], Chapter 3.2 of Sedgewick-Wayne.
+Balanced and self-balancing BSTs: I will be teaching the variant known as AVL trees; see Wikipedia description. Chapter 13 of [CLRS] and Chapter 3.3 of Sedgewick-Wayne cover a more complicated variant called red-black trees, based on similar principles. (I will link to more material on this topic below.)
+Hash tables: Chapter 11 of [CLRS], Chapter 3.4 of Sedgewick-Wayne.
+Heaps and priority queues: Chapter 6 of [CLRS], Chapter 2.4 of Sedgewick-Wayne
+
+AVL Trees
+Since AVL trees are not directly covered in [CLRS] or Sedgewick-Wayne, here is a list of alternative references.
+
+Wikipedia: Topics AVL Trees and Tree Rotations. 
+AVL Trees: Course notes by Eric Alexander.
+Chapter 13.2 (rotations) and Problem 13-2 in [CLRS] cover or are relevant for AVL trees.
+
+
+Block 3: Graph Algorithms
+Lectures on graph theory and graph algorithms. Topics include:
+Basics: Graph representations, connectivity, properties of DFS and BFS
+Min-cost spanning trees: Characterisation, Union-Find data structure, Kruskal's and Prim's algorithms (efficient implementations)
+Distances in graphs: Single-source (Dijkstra) and all-pairs, weighted/unweighted, various situations
+As an extra "outlook" segment, I will also talk about the general topic of P vs NP (what the question means, problem reductions, NP-completeness) and its implication
